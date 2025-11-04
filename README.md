@@ -16,6 +16,8 @@ or in the original publication (McDonald, D. et al. mSystems, 2018).
 - **Mammalian Safari:** All data modalities were obtained and preprocessed following the original publication from [Gregor, R. et al.](https://academic.oup.com/ismej/article/16/5/1262/7474189?login=true).
 - **Decomposer Network:** All data modalities were obtained from [Burcham, Z. M. et al.](https://github.com/Metcalf-Lab/2023-Universal-microbial-decomposer-network/tree/master/jrpca_network/network)
 
+For source data and intermediate output files, please refer to the associated [Code Ocean capsule](https://codeocean.com/capsule/7782051/tree).
+
 ## Code
 ---
 ## Conda environment installation
