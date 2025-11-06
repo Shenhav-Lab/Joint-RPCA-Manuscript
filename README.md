@@ -10,8 +10,7 @@ The following datasets were used in case studies and data-driven simulations:
 
 - **iHMP:** The metatranscriptomics, metagenomics, metabolomics, proteomics, and viromics data were downloaded from the integrated Human Microbiome Project [database](https://ibdmdb.org). See [Lloyd-Price, J. et al.](https://www.nature.com/articles/s41586-019-1237-9) for more details.
 - **Additional IBD cohorts:** Instructions for accessing the independent inflammatory bowel disease (IBD) cohort data can be found [here](https://github.com/knightlab-analyses/uc-severity-multiomics). More details on the cohorts are provided by [Mills, R. H. et al](https://www.nature.com/articles/s41564-021-01050-3).
-- **American Gut Project (AGP):** Metagenomics from controls with no IBD or irritable bowel syndrome (IBS). Instructions to access data can be found in the following [repository](https://github.com/knightlab-analyses/american-gut-analyses).
-or in the original publication (McDonald, D. et al. mSystems, 2018).
+- **American Gut Project (AGP):** Metagenomics from controls with no IBD or irritable bowel syndrome (IBS). Instructions to access data can be found in the following [repository](https://github.com/knightlab-analyses/american-gut-analyses) or in the original publication [McDonald, D. et al.](https://journals.asm.org/doi/10.1128/msystems.00031-18).
 - **Biocrust soils:** The true positive metabolite associations and evaluation code were obtained from [Morton, J. T. et al](https://github.com/knightlab-analyses/multiomic-cooccurrences/tree/rebuttal). Also see [Swenson, T. L. et al.](https://www.nature.com/articles/s41467-017-02356-9) for study details.
 - **Mammalian Safari:** All data modalities were obtained and preprocessed following the original publication from [Gregor, R. et al.](https://academic.oup.com/ismej/article/16/5/1262/7474189?login=true).
 - **Decomposer Network:** All data modalities were obtained from [Burcham, Z. M. et al.](https://github.com/Metcalf-Lab/2023-Universal-microbial-decomposer-network/tree/master/jrpca_network/network)
@@ -22,9 +21,7 @@ For source data and intermediate output files, please refer to the associated [C
 ---
 ## Conda environment installation
 
-Gemelli is most easily used inside of a [QIIME2](https://qiime2.org/) environment. The directions for creating a QIIME2 environment can be found [here](https://docs.qiime2.org/2024.10/install/native/#install-qiime-2-within-a-conda-environment). All of the versions are stored in the dockerfile in this capsule. 
-
-To reduce compute time, we provide intermediate files under the data directory and include only the scripts required to reproduce the figures in `run.sh`. Scripts used for data preprocessing as well as other time-intensive tasks, such as machine learning and running the benchmarked tools, are provided under the *code* directory.
+Joint-RPCA is distributed as a standalone Python package in the Gemelli codebase and as a QIIME2 plugin. Gemelli is most easily used inside of a [QIIME2](https://qiime2.org/) environment but can also be installed via `pip`. The directions for creating a QIIME2 environment can be found [here](https://docs.qiime2.org/2024.10/install/native/#install-qiime-2-within-a-conda-environment). 
 
 ## Scripts
 
