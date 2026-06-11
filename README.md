@@ -1,11 +1,15 @@
 # Joint-RPCA Data & Code Repository
----
-Joint-RPCA is a novel multi-omics dimensionality reduction tool designed to integrate multiple omic types from matched samples, uncovering patterns that drive ecosystem-wide differences across phenotypes. Joint-RPCA is part of the [Gemelli](https://github.com/cameronmartino/gemelli/tree/master/gemelli) tool box.
 
-Here we provide the data and scripts used to conduct the case studies, simulations, and benchmarking presented in the Joint-RPCA publication. 
+---
+
+Joint-RPCA is a multi-omics dimensionality reduction method that integrates multiple omic data types measured from matched samples, enabling the discovery of patterns that drive ecosystem-wide differences across phenotypes. Joint-RPCA is available through the [Gemelli](https://github.com/cameronmartino/gemelli/tree/master/gemelli) toolbox and the mia package in [Bioconductor](https://bioconductor.org/packages/mia).
+
+Here, we provide the scripts used to reproduce the case studies, simulations, and benchmarking analyses presented in the Joint-RPCA manuscript, as well as information on accessing the datasets used in these analyses.
 
 ## Data
+
 ---
+
 The following datasets were used in case studies and data-driven simulations: 
 
 - **iHMP:** The metatranscriptomics, metagenomics, metabolomics, proteomics, and viromics data were downloaded from the integrated Human Microbiome Project [database](https://ibdmdb.org). See [Lloyd-Price, J. et al.](https://www.nature.com/articles/s41586-019-1237-9) for more details.
@@ -18,10 +22,16 @@ The following datasets were used in case studies and data-driven simulations:
 For source data and intermediate output files, please refer to the associated [Code Ocean capsule](https://codeocean.com/capsule/7782051/tree).
 
 ## Code
+
 ---
+
 ## Conda environment installation
 
-Joint-RPCA is distributed as a standalone Python package in the Gemelli codebase and as a QIIME2 plugin. Gemelli is most easily used inside of a [QIIME2](https://qiime2.org/) environment but can also be installed via `pip`. The directions for creating a QIIME2 environment can be found [here](https://docs.qiime2.org/2024.10/install/native/#install-qiime-2-within-a-conda-environment). 
+Joint-RPCA is available as a standalone Python package in the Gemelli toolbox and as a QIIME 2 plugin. Gemelli is most easily used inside of a [QIIME 2](https://qiime2.org/) environment but can also be installed via `pip`. 
+
+Instructions for creating a QIIME 2 conda environment can be found in the QIIME 2 [installation guide](https://docs.qiime2.org/2024.10/install/native/#install-qiime-2-within-a-conda-environment).
+
+For users working in R, Joint-RPCA is also available through the mia package in Bioconductor. Documentation can be found on the [Bioconductor](https://bioconductor.org/packages/mia) package page and the mia [website](https://microbiome.github.io/mia/).
 
 ## Scripts
 
@@ -30,7 +40,9 @@ Joint-RPCA is distributed as a standalone Python package in the Gemelli codebase
 **Case Studies:** Similarly, scripts used for the case studies are stored under `code/case-studies/` and are numbered to indicate run order as well as the case study they are relevant to. 
 
 ## Specific scripts used for generating figures and tables
+
 ---
+
 The following list documents which analysis scripts were used to generate each figure and table included in the main text and supplementary materials.
 
 ### **Main Figures**
@@ -82,6 +94,5 @@ The following list documents which analysis scripts were used to generate each f
 - `1.0-finrisk-runtime-plotting.ipynb`: **Supp. Table 5**
 
 #### **From `case-studies/`**
-- `1.5.5-runtime-plotting.ipynb`: **Supp. Table 6**  
-- `3.1-decomposer-rpca.ipynb`: **Supp. Table 7**
-
+- `1.5.5-runtime-plotting.ipynb`: **Dataset EV1** (previously **Supp. Table 6**)
+- `3.1-decomposer-rpca.ipynb`: **Dataset EV2** (previously **Supp. Table 7**)
