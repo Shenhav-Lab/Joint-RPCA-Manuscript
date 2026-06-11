@@ -1,14 +1,10 @@
 # Joint-RPCA Data & Code Repository
 
----
-
 Joint-RPCA is a multi-omics dimensionality reduction method that integrates multiple omic data types measured from matched samples, enabling the discovery of patterns that drive ecosystem-wide differences across phenotypes. Joint-RPCA is available through the [Gemelli](https://github.com/cameronmartino/gemelli/tree/master/gemelli) toolbox and the mia package in [Bioconductor](https://bioconductor.org/packages/mia).
 
 Here, we provide the scripts used to reproduce the case studies, simulations, and benchmarking analyses presented in the Joint-RPCA manuscript, as well as information on accessing the datasets used in these analyses.
 
 ## Data
-
----
 
 The following datasets were used in case studies and data-driven simulations: 
 
@@ -22,8 +18,6 @@ The following datasets were used in case studies and data-driven simulations:
 For source data and intermediate output files, please refer to the associated [Code Ocean capsule](https://codeocean.com/capsule/7782051/tree).
 
 ## Code
-
----
 
 ## Conda environment installation
 
@@ -40,8 +34,6 @@ For users working in R, Joint-RPCA is also available through the mia package in 
 **Case Studies:** Similarly, scripts used for the case studies are stored under `code/case-studies/` and are numbered to indicate run order as well as the case study they are relevant to. 
 
 ## Specific scripts used for generating figures and tables
-
----
 
 The following list documents which analysis scripts were used to generate each figure and table included in the main text and supplementary materials.
 
